@@ -2,14 +2,23 @@
   label = "ITEM NAME",
   tooltip = "TOOLTIP",
   lightLevel = 0,
-              --up to 8 rest is added by mixing the block with glowstone dust
-  buttonMode = false,
-              
+              --up to 8, rest is added by mixing the block with glowstone dust
   emitRedstone = false,
+              --emit redstone when in on state?
+  buttonMode = false,
+              --behave like lever (F) or button (T)?
   collidable = {false, false},
               --should player collide with it {off state,on state}
   shapes = {
-              --up to 24 for off and on redstone states
+              --up to 24 for off state and 24 for on state (using default config)
+              
+              --the six numbers define the size of cuboid (print measure_thingy.3dm to see how it works
+              --THE CUBOIDS MUST HAVE VOLUME!!! so minimal dx,dy,dz is 1
+              
+              --texture name can be read with the ingame "texture picker"
+              
+              --tint changes the tint of the texture (any 0xRRGGBB hex color)
+              
     { 4, 0, 4,12, 3, 7, texture = "wool_colored_light_blue",tint=0x07079f},
     { 4, 0, 7,12, 7,11, texture = "wool_colored_blue",      tint=0x051137},
     { 4, 3, 4,12, 4, 5, texture = "wool_colored_black",     tint=0x080808},
@@ -63,7 +72,7 @@
     { 3, 4, 9,13, 6,12, texture = "wool_colored_black",     tint=0x080808,state=true},
     { 3, 5, 7,13, 6,13, texture = "wool_colored_black",     tint=0x080808,state=true},
     { 3, 2,10,13, 6,12, texture = "wool_colored_black",     tint=0x080808,state=true},
-    { 3, 2,10,13, 6,12, texture = "wool_colored_black",     tint=0x080808,state=true}
-
-  }
+    { 3, 2,10,13, 6,12, texture = "wool_colored_black",     tint=0x080808,state=true} --no "," here
+    }
 }
+--Yes it prints my head.
