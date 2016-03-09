@@ -10,7 +10,7 @@
   collidable = {false, false},
               --should player collide with it {off state,on state}
   shapes = {
-              --up to 24 for off state and 24 for on state (using default config)
+              --up to 64 for off state and 64 for on state (24/24 using default config)
               
               --the six numbers define the size of cuboid (print measure_thingy.3dm to see how it works)
               --THE CUBOIDS MUST HAVE VOLUME!!! so minimal dx,dy,dz is 1
