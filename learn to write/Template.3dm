@@ -12,7 +12,7 @@
   shapes = {
               --up to 24 for off state and 24 for on state (using default config)
               
-              --the six numbers define the size of cuboid (print measure_thingy.3dm to see how it works
+              --the six numbers define the size of cuboid (print measure_thingy.3dm to see how it works)
               --THE CUBOIDS MUST HAVE VOLUME!!! so minimal dx,dy,dz is 1
               
               --texture name can be read with the ingame "texture picker"
@@ -73,6 +73,6 @@
     { 3, 5, 7,13, 6,13, texture = "wool_colored_black",     tint=0x080808,state=true},
     { 3, 2,10,13, 6,12, texture = "wool_colored_black",     tint=0x080808,state=true},
     { 3, 2,10,13, 6,12, texture = "wool_colored_black",     tint=0x080808,state=true} --no "," here
-    }
+    }--Closing shapes, no "," here
 }
 --Yes it prints my head.
