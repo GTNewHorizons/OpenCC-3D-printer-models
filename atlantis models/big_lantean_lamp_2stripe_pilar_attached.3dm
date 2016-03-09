@@ -1,0 +1,13 @@
+{
+  label = "Big Lantean Lamp (2 stripe, pillar attached)",
+  tooltip = "Glows all the time (You shall not pass!)",
+  lightLevel = 15,--glowstone boosting required
+  buttonMode = false,
+  emitRedstone = false,
+  collidable = {true, true},
+  shapes = {
+    { 1, 0, 1,15,16,16, texture = "ztones:sets/korp/korp_ (2)"},
+    { 0, 3, 0,16, 5,16, texture = "extrautils:greenscreen",     tint=0xeeeeff},
+    { 0,11, 0,16,13,16, texture = "extrautils:greenscreen",     tint=0xeeeeff}
+  }
+}

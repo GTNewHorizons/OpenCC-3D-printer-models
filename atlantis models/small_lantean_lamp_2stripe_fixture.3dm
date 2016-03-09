@@ -1,0 +1,13 @@
+{
+  label = "Small Lantean Fixture (2 stripe)",
+  tooltip = "Glows all the time (mostly)",
+  lightLevel = 15,--glowstone boosting required
+  buttonMode = false,
+  emitRedstone = false,
+  collidable = {true, true},
+  shapes = {
+    { 4, 0,12,12,16,16, texture = "ztones:sets/korp/korp_ (1)"},
+    { 3, 3,11,13, 5,16, texture = "extrautils:greenscreen",     tint=0xeeeeff},
+    { 0,11,11,13,13,16, texture = "extrautils:greenscreen",     tint=0xeeeeff}
+  }
+}

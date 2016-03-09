@@ -1,0 +1,13 @@
+{
+  label = "Big Lantean Lamp (1 stripe, full block)",
+  tooltip = "Glows all the time (Causes cancer in donuts)",
+  lightLevel = 15,--glowstone boosting required
+  buttonMode = false,
+  emitRedstone = false,
+  collidable = {true, true},
+  shapes = {
+    { 0, 0, 0,16, 4,16, texture = "ztones:sets/korp/korp_ (2)"},
+    { 0, 4, 0,16,12,16, texture = "extrautils:greenscreen",     tint=0xeeeeff},
+    { 0,12, 0,16,16,16, texture = "ztones:sets/korp/korp_ (2)"}
+  }
+}

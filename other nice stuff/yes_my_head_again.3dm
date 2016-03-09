@@ -1,0 +1,63 @@
+{
+  label = "Tec's Head",
+  tooltip = "Was severed from body by unearthly forces",
+  lightLevel = 8,
+  buttonMode = true,
+  emitRedstone = true,
+  collidable = {true, true},
+  shapes = {
+    { 4, 0, 4,12, 3, 7, texture = "wool_colored_light_blue",tint=0x07079f},
+    { 4, 0, 7,12, 7,11, texture = "wool_colored_blue",      tint=0x051137},
+    { 4, 3, 4,12, 4, 5, texture = "wool_colored_black",     tint=0x080808},
+    { 4, 3, 5,12, 4, 7, texture = "wool_colored_blue",      tint=0x051137},
+    { 4, 4, 4, 5, 5, 5, texture = "wool_colored_black",     tint=0x080808},
+    { 5, 4, 4, 6, 5, 5, texture = "wool_colored_white",     tint=0xdadae3},
+    { 6, 4, 4, 7, 5, 5, texture = "lapis_block",            tint=0x0824b3},
+    { 7, 4, 4, 9, 5, 5, texture = "wool_colored_blue",      tint=0x051137},
+    { 9, 4, 4,10, 5, 5, texture = "wool_colored_white",     tint=0xdadae3},
+    {10, 4, 4,11, 5, 5, texture = "lapis_block",            tint=0x0824b3},
+
+    {11, 4, 4,12, 5, 5, texture = "wool_colored_black",     tint=0x080808},
+    { 6, 0, 0,10, 3, 4, texture = "wool_colored_light_blue",tint=0x07079f},
+    { 6, 3, 0, 7, 4, 4, texture = "wool_colored_black",     tint=0x080808},
+    { 9, 3, 0,10, 4, 4, texture = "wool_colored_black",     tint=0x080808},
+    { 7, 3, 0, 9, 4, 1, texture = "wool_colored_black",     tint=0x080808},
+    { 7, 3, 1, 9, 4, 4, texture = "wool_colored_blue",      tint=0x051137},
+    { 4, 5, 4,12, 6, 5, texture = "wool_colored_blue",      tint=0x051137},
+    { 4, 4, 5,12, 6, 7, texture = "wool_colored_blue",      tint=0x051137},
+    { 3, 6, 3,13, 9,13, texture = "wool_colored_black",     tint=0x080808},
+    { 3, 0,11,13, 6,13, texture = "wool_colored_black",     tint=0x080808},
+
+    { 3, 4, 9,13, 6,12, texture = "wool_colored_black",     tint=0x080808},
+    { 3, 5, 7,13, 6,13, texture = "wool_colored_black",     tint=0x080808},
+    { 3, 2,10,13, 6,12, texture = "wool_colored_black",     tint=0x080808},
+
+
+    { 4, 0, 4,12, 3, 7, texture = "wool_colored_light_blue",tint=0x07079f,state=true},
+    { 4, 0, 7,12, 7,11, texture = "wool_colored_blue",      tint=0x051137,state=true},
+    { 4, 3, 4,12, 4, 5, texture = "wool_colored_black",     tint=0x080808,state=true},
+    { 4, 3, 5,12, 4, 7, texture = "wool_colored_blue",      tint=0x051137,state=true},
+    { 4, 4, 4, 5, 5, 5, texture = "wool_colored_black",     tint=0x080808,state=true},
+    { 5, 4, 4, 6, 5, 5, texture = "wool_colored_black",     tint=0x080808,state=true},
+    { 6, 4, 4, 7, 5, 5, texture = "wool_colored_black",     tint=0x080808,state=true},
+    { 7, 4, 4, 9, 5, 5, texture = "wool_colored_blue",      tint=0x051137,state=true},
+    { 9, 4, 4,10, 5, 5, texture = "wool_colored_black",     tint=0x080808,state=true},
+    {10, 4, 4,11, 5, 5, texture = "wool_colored_black",     tint=0x080808,state=true},
+
+    {11, 4, 4,12, 5, 5, texture = "wool_colored_black",     tint=0x080808,state=true},
+    { 6, 0, 0,10, 3, 4, texture = "wool_colored_light_blue",tint=0x07079f,state=true},
+    { 6, 3, 0, 7, 4, 4, texture = "wool_colored_black",     tint=0x080808,state=true},
+    { 9, 3, 0,10, 4, 4, texture = "wool_colored_black",     tint=0x080808,state=true},
+    { 7, 3, 0, 9, 4, 1, texture = "wool_colored_black",     tint=0x080808,state=true},
+    { 7, 3, 1, 9, 4, 4, texture = "wool_colored_blue",      tint=0x051137,state=true},
+    { 4, 5, 4,12, 6, 5, texture = "wool_colored_blue",      tint=0x051137,state=true},
+    { 4, 4, 5,12, 6, 7, texture = "wool_colored_blue",      tint=0x051137,state=true},
+    { 3, 6, 3,13, 9,13, texture = "wool_colored_black",     tint=0x080808,state=true},
+    { 3, 0,11,13, 6,13, texture = "wool_colored_black",     tint=0x080808,state=true},
+
+    { 3, 4, 9,13, 6,12, texture = "wool_colored_black",     tint=0x080808,state=true},
+    { 3, 5, 7,13, 6,13, texture = "wool_colored_black",     tint=0x080808,state=true},
+    { 3, 2,10,13, 6,12, texture = "wool_colored_black",     tint=0x080808,state=true}
+
+  }
+}
