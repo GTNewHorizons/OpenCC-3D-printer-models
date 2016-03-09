@@ -1,0 +1,23 @@
+{
+  label = "Measure Thing",
+  tooltip = "It's just a thing bro, just a thing.",
+  collidable = {true, true},
+  shapes = {
+    --0,0,0 point is left,bottom,front (towards player)
+    
+    --the coordinates are as follows:
+    
+    --left   limit plane
+    --bottom limit plane
+    --front  limit plane
+    
+    --right  limit plane
+    --top    limit plane
+    --back   limit plane
+    
+    { 0, 0, 0,16, 1, 1, texture = "wool_colored_white", tint=0xff0000},--red
+    { 0, 0, 0, 1,16, 1, texture = "wool_colored_white", tint=0x00ff00},--green
+    { 0, 0, 0, 1, 1,16, texture = "wool_colored_white", tint=0x0000ff} --blue
+  {
+}
+  
