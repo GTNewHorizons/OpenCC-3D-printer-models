@@ -18,6 +18,6 @@
     { 0, 0, 0,16, 1, 1, texture = "wool_colored_white", tint=0xff0000},--red
     { 0, 0, 0, 1,16, 1, texture = "wool_colored_white", tint=0x00ff00},--green
     { 0, 0, 0, 1, 1,16, texture = "wool_colored_white", tint=0x0000ff} --blue
-  {
+  }
 }
   
